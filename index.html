@@ -15,6 +15,8 @@
 	<div class="htmleaf-header">
         <h2><a  href="#">What hurts more,the pain of hard work or the pain of regret?</a> </h2>
         <br></br>
+        <input type="text" id="search"> <button class="button" onClick="search()">百度一下</button>
+        <br></br>
         <br></br>
         <span>常用网站</span>
 	    
@@ -23,7 +25,6 @@
             <a  href="http://http://www.google.cn/" title="谷歌" target="_blank"><span> 谷歌</span></a>
 			<a  href="http://www.sina.com.cn/" title="新浪" target="_blank"><span> 新浪</span></a>
 		
-        <br></br>
         <br></br>
         <span>音乐、电影</span>
      
@@ -34,7 +35,6 @@
             
 	
          <br></br>
-         <br></br>
         <span>购物</span>
 		     <a  href="http://www.taobao.com/" title="淘宝" target="_blank"><span> 淘宝</span></a> 
              <a  href="https://www.jd.com/" title="京东" target="_blank"><span> 京东</span></a> 
@@ -43,5 +43,10 @@
             <a  href="https://shop151944808.taobao.com/shop/view_shop.htm?spm=a1z0k.6846577.0.0.tH8mVr&shop_id=151944808" title="hahaha" target="_blank"><span> 好衣库</span></a>	
 	</div>
 	<script src="index.js"></script>
+    <script>
+    	function search(){
+			window.open("http://www.baidu.com/s?wd="+document.getElementById("search").value);
+			}
+    </script>
 </body>
 </html>
