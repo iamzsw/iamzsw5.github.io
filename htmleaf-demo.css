@@ -86,7 +86,7 @@ a:hover,a:focus{color:#74777b;text-decoration: none;}
 	padding: 2rem;
 	position: relative;
 	overflow: hidden;
-	width: 868px;
+	width: 100%;
 	z-index: 1;
 	text-align: center;
 }
